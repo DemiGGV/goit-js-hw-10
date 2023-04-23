@@ -25,6 +25,8 @@ function onInputGetQuerry() {
         console.log('Catch:', eggog);
         Notify.failure('Oops, there is no country with that name');
       });
+  } else {
+    clearFields();
   }
 }
 
